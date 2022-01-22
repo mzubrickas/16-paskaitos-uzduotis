@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@400;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("arcade.jpg") no-repeat center center;
+  background-position: 51% 34%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Tourney', cursive;
+}
+
+button {
+  max-width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Tourney', cursive;
+  background: #0055e2;
+  border: 1px solid white;
+  color: white;
+  transition: 1s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 20px;
+  font-family: 'Tourney', cursive;
+}
+
+input {
+  text-align: center;
+  font-family: 'Tourney', cursive;
+  font-size: 20px;
+  width: 300px;
+  background: black;
+  color: SpringGreen;
+  border: none;
+}
+
+::placeholder {
+  font-family: 'Tourney', cursive;
+  color: SpringGreen;
+  letter-spacing: 5px;
+}
+
+
+.rules {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 400px;
+  background: black;
+  color: SpringGreen;
+}
+
+.buttons {
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
